@@ -91,26 +91,23 @@ nav ul a:hover {
   text-align: center; }
 
 .article-1 {
-  width: 20%;
   float: left;
-  padding: 7px;
-  margin: 0 auto; }
+  width: 300px;
+  margin: 0 auto;
+  text-align: center; }
 
-.image-list {
-  width: 90%;
-  margin: 0 auto; }
+.article-1 .box1 {
+  padding: 25px; }
 
-.news {
-  margin: 0 auto; }
-  .news h3 {
-    text-align: center;
-    border-top: 1px dotted #CCC;
-    border-bottom: 1px dotted #CCC;
-    padding: 15px 0;
-    font-family: museo_slab500; }
+body > div > div > section.news > div:nth-child(2) {
+  padding-left: 20px; }
 
-.row {
-  height: 90px; }
+h3 {
+  text-align: center;
+  border-top: 1px dotted #CCC;
+  border-bottom: 1px dotted #CCC;
+  padding: 15px 0;
+  font-family: museo_slab500; }
 
 .article-2 {
   width: 30%;
